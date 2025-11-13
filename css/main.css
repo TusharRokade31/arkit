@@ -667,7 +667,7 @@ ul.nav > li > a.active{
     position: relative;
 }
 .about-bg-page{
-    background-image: url(../img/about/about.jpg);
+    background-image: url(../img/about/about2.jpg);
     background-position: top right;
     background-repeat: no-repeat;
     width: 100%;
@@ -1507,12 +1507,32 @@ ul.nav > li > a.active{
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: center;
     position: relative;
     z-index: 1;
 }
+
+#form-messages {
+    display: none;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#form-messages.alert-success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+#form-messages.alert-danger {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
 .page-header-aboutus{
     background-image: url(../img/about/about-us-banner.jpg);
 }
